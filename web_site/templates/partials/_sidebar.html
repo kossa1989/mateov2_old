@@ -1,0 +1,37 @@
+{% load static%}
+
+<!-- Sidebar  -->
+      <nav id="sidebar" class="bg-light shadow active">
+        <div class="sidebar-header">
+          <img
+            src="{% static '/img/aotm.png' %}"
+            class="mx-auto d-block aotm-img"
+            alt="AOTMiT"
+          />
+        </div>
+
+            <div class="components">
+                <div class="container">
+                  {% block sidebar_control %}
+    <!--            <a href="#homeSubmenu" class="btn btn-outline-info btn-block"-->
+    <!--              >Dane ogólne</a-->
+    <!--            >-->
+    <!--            <a href="#homeSubmenu" class="btn btn-outline-info btn-block"-->
+    <!--              >Sprawdź dane</a-->
+    <!--            >-->
+    <!--            <a href="#homeSubmenu" class="btn btn-outline-info btn-block"-->
+    <!--              >Import Excel</a-->
+    <!--            >-->
+    <!--            <a href="#homeSubmenu" class="btn btn-outline-info btn-block"-->
+    <!--              >Pobierz wzór FK</a-->
+    <!--            >-->
+    <!--            <a href="#homeSubmenu" class="btn btn-outline-success btn-block"-->
+    <!--              >Prześlij dane do weryfikacji</a-->
+    <!--            >-->
+                  {% endblock sidebar_control %}
+                </div>
+            </div>
+          <div class="list-unstyled CTAs">
+          </div>
+      </nav>
+      <!-- end Sidebar -->

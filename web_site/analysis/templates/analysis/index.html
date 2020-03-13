@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% load bootstrap %}
+{% load static %}
+
+ {% block styles %}
+    <link rel="stylesheet" href="{% static '/css/loading.css' %}">
+    {% endblock styles %}
+
+
+{% block content %}
+
+
+<div class="mx-auto" style="width: 80%;">
+    <h1 class="display-3 text-center my-4">Taryfikator</h1>
+    <h2>Przykładowe wzory analiz (kliknij aby zaczytać):</h2>
+    {% for i in config_templates %}
+
+    <a href="?load_template={{i}}"><button class="btn btn-primary">{{i}}</button></a>
+
+    {% endfor %}
+
+
+    {% if user_analyses %}
+    <p></p>
+    <h2>Wykonane analizy:</h2>
+    {% for i in user_analyses%}
+    <a href="{% url 'analysis:index' %}?id={{i.id}}"><button class="btn btn-outline-success">{{i.name|truncatechars:15 }}</button></a>
+    {% endfor %}
+    {% endif %}
+    <hr>
+
+    <h5>Zdefniuj parametry aby dodać analizę lub wybierz z rozpoczętych analiz:</h5>
+
+    <form action="" method="post">
+<!--        <button  id="btnSubmit" type="submit" class="btn btn-success btn-sm">Policz&nbsp<i class="fas fa-calculator"></i></button>-->
+        <button type="reset" class="btn btn-secondary btn-sm">Wyczyść formularz</button>
+        <table class="table table-stripped">
+        {% csrf_token %}
+        {{ form|bootstrap }}
+            </table>
+    <!--    <input type="submit" value="Uruchom" />-->
+
+        <button  id="btnSubmit" type="submit" class="btn btn-success btn-block">Policz&nbsp<i class="fas fa-calculator"></i></button>
+
+    </form>
+</div>
+<!--Modal: modalPush-->
+    <div class="modal fade" id="modalPush" tabindex="-1" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered modal-notify modal-info my-5">
+        <!--Content-->
+        <div class="modal-content text-center">
+          <!--Header-->
+          <div class="modal-header d-flex justify-content-center">
+            <p class="heading">Proszę o cierpliwość. Trwa liczenie taryfy...</p>
+          </div>
+
+          <!--Body-->
+          <div class="modal-body">
+              <div class=" my-5">
+                    <div class="loader">
+                      <span class="dot"></span>
+                      <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    {% endblock %}
+
+
+
+
+

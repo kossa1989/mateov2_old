@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{% block content%}
+<form method="post" action="">
+    Hi {{request.user}}! Please log in! <br/>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <td><input type="submit" value="Log in" /></td>
+    <input type="hidden" name="next" value="{{ next }}" />
+</form>
+{% endblock %}

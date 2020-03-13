@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+{% block content %}
+
+Przykładowe wzory analiz (kliknij aby zaczytać): <br/>
+{% for i in config_templates %}
+
+<a href="?load_template={{i}}"><button class="btn btn-warning">{{i}}</button></a>
+
+{% endfor %}
+
+{% if user_analyses %}
+<h4>Wykonane analizy:</h4>
+{% for i in user_analyses%}
+<a href="{% url 'analysis:index' %}?id={{i.id}}"><button class="btn btn-info">{{i.name|truncatechars:15 }}</button></a>
+{% endfor %}
+{% endif %}
+<br/><a href="/">Nowa analiza (wyczyść szablon)</a>
+<h5>Zdefniuj parametry aby dodać analizę lub wybierz z rozpoczętych analiz:</h5>
+
+<form action="" method="post">
+    <table class="table table-stripped">
+    {% csrf_token %}
+    {{ form.as_table }}
+        </table>
+    <input type="submit" value="Uruchom" />
+</form>
+{% endblock %}

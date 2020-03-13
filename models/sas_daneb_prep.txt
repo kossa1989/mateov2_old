@@ -1,0 +1,110 @@
+### Plik przygotowywujący Biblioteki i dane z SAS by można było je wykorzystać w taryfikatorze. - P.Kosowski
+
+%let base_lib=wb17;
+proc sql;
+create table tmp_epizod as
+select distinct
+case when ksiega_nr_dziecka is null then 0 else ksiega_nr_dziecka end as ksiega_nr_dziecka,
+ksiega_rok, ksiega_poz, ksiega_nr, data_urodz, id_swd
+from nfz17.f_epizod
+;
+quit;
+
+proc sql;
+create table og_wiek as
+select t1.*, intck('YEAR',t2.data_urodz,t1.data_zak) as wiek
+from &base_lib..all_csz17_og t1 left join tmp_epizod t2 on
+t1.kod_sw=t2.id_swd and
+input(t1.ksiega_rok, best8.)=t2.ksiega_rok and
+input(t1.ksiega_nr, best8.)=t2.ksiega_nr and
+input(t1.ksiega_poz, best8.)=t2.ksiega_poz and
+input(t1.ksiega_nr_dziecka, best8.)=t2.ksiega_nr_dziecka
+;
+quit;
+
+
+
+%macro write_excel(filename);
+proc export data=&base_lib..all_csz17_&filename
+outfile="W:\csv\&filename..csv" dbms=csv
+replace;
+run;
+%mend;
+
+proc export data=og_wiek
+outfile="W:\csv\og.csv" dbms=csv
+replace;
+run;
+
+%write_excel(pl);
+%write_excel(pr);
+%write_excel(pr_hr);
+%write_excel(wm);
+%write_excel(cp);
+%write_excel(sm);
+%write_excel(om);
+
+proc sql;
+create table nfz_1a_swd as
+select t2.*
+from &base_lib..all_csz17_og t1 left join sl.nfz_2017_1a_all t2 on
+t1.kod_sw=t2.id_swd and
+t1.ksiega_rok=t2.ksiega_rok and
+t1.ksiega_nr=t2.ksiega_nr and
+t1.ksiega_poz=t2.ksiega_poz and
+t1.ksiega_nr_dziecka=t2.ksiega_nr_dziecka
+;
+quit;
+
+proc export data=nfz_1a_swd
+outfile="W:\csv\nfz_1a.csv" dbms=csv
+replace;
+run;
+
+proc sql;
+create table nfz_1c_swd as
+select t2.*
+from &base_lib..all_csz17_og t1 left join sl.nfz_2017_1c_all t2 on
+t1.kod_sw=t2.id_swd and
+t1.ksiega_rok=t2.ksiega_rok and
+t1.ksiega_nr=t2.ksiega_nr and
+t1.ksiega_poz=t2.ksiega_poz and
+t1.ksiega_nr_dziecka=t2.ksiega_nr_dziecka
+;
+quit;
+
+proc export data=nfz_1c_swd
+outfile="W:\csv\nfz_1c.csv" dbms=csv
+replace;
+run;
+
+### PYYTHON NOTEBOOK
+wgranie_danych.ipynb
+### DB
+CREATE SCHEMA wb17 CHARACTER SET = latin2;
+
+use wb17;
+ALTER TABLE pr ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE og ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE sm ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE om ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE cp ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE pr_hr ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE wm ADD id INT AUTO_INCREMENT PRIMARY KEY;
+ALTER TABLE pl ADD id INT AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE om MODIFY KOD_OW VARCHAR(250) DEFAULT 'NULL';
+ALTER TABLE om MODIFY KOD_SW VARCHAR(250) DEFAULT 'NULL';
+ALTER TABLE om MODIFY EAN VARCHAR(250) DEFAULT 'NULL';
+ALTER TABLE om MODIFY SUBST_CZYNNA_RODZAJ_WM VARCHAR(850) DEFAULT 'NULL';
+ALTER TABLE om MODIFY ZAWARTOSC_SUBST_CZYNNEJ VARCHAR(250) DEFAULT 'NULL';
+ALTER TABLE om MODIFY JEDN_MIARY_OPAK VARCHAR(250) DEFAULT 'NULL';
+ALTER TABLE om MODIFY NAZWA VARCHAR(250) DEFAULT 'NULL';
+ALTER TABLE om MODIFY JEDN_MIARY VARCHAR(250) DEFAULT 'NULL';
+
+alter table pr modify nazwa_pr VARCHAR(850) DEFAULT 'NULL';
+alter table pr_hr modify nazwa_pr VARCHAR(850) DEFAULT 'NULL';
+alter table pr modify nr_opk_pr VARCHAR(50) DEFAULT 'NULL';
+alter table pr_hr modify nr_opk_pr VARCHAR(50) DEFAULT 'NULL';
+alter table pr_hr modify nr_opk_hr VARCHAR(50) DEFAULT 'NULL';
+alter table pr_hr modify nazwa_hr VARCHAR(250) DEFAULT 'NULL';

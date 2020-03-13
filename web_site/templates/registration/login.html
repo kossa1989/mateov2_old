@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap %}
+{% block title %} Login page {% endblock %}
+
+{% block navbar %}
+
+
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static '/css/login.css'%}">
+{% endblock styles %}
+
+{% block active %} Login{% endblock %}
+{% block body %}
+
+<div class="container">
+  <div class="card card-container" style="width: 50%;">
+
+      <img id="profile-img" class="profile-img-card" src="{% static '/img/avatar.png' %}" height="125" width="125"/>
+      <form method="POST">
+          Witaj {{request.user}}!
+        Musisz zalogować się by przejść dalej:
+      {% csrf_token %}
+      {{form|bootstrap}}
+      <button type="submit" class="btn btn-primary">Zaloguj&nbsp<i class="fas fa-sign-in-alt"></i></button>
+      </form>
+
+  </div>
+</div>
+
+{% endblock %}

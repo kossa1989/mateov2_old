@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+{% load static%}
+
+<html lang="pl">
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>{% block title %} {% endblock %}</title>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+        <!-- Bootstrap v4.3.1-->
+        <link rel="stylesheet" href="{% static '/css/bootstrap.css'%}">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{% static '/css/style.css'%}">
+        <!-- Custom css from static  -->
+        <link rel="stylesheet" href="{% static 'custom.css' %}">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{% static '/img/favicon.ico' %}" type="image/x-icon">
+        <link rel="icon" href="{% static '/img/favicon.ico' %}" type="image/x-icon">
+
+        <!-- Customowe style -->
+        <style>
+        {% block styles %}
+        {% endblock styles %}
+        </style>
+
+        <!-- Block Head -->
+        {%block head %}{% endblock %}
+                <!--  Nav Bar import -->
+        {% include 'partials/_navbar.html'%}
+        </head>
+        <body>
+
+        <!--  Block Body  -->
+        {% block body %} {% endblock %}
+
+        <!-- Scripts -->
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="{% static 'js/bootstrap.js' %} "></script>
+        <script src="{% static 'js/main.js' %} "></script>
+
+        <!-- Scripts specific other pages -->
+        {% block end_scripts %}
+        {% endblock end_scripts %}
+
+        <!-- Klasa potrzebna dla Taryfikatora(widok) -->
+            {% block content%}
+            {% endblock %}
+
+
+</body>
+
+    <!-- Footer import-->
+    {% include 'partials/_footer.html'%}
+
+</html>
+

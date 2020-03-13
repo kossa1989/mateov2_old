@@ -1,0 +1,6 @@
+*.pyc
+.idea/
+*.lock
+venv/
+cmd_logs.txt
+requirements.txt

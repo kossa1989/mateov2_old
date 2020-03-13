@@ -1,0 +1,1 @@
+To jest kolejny katalog przeniesiony 1:1 z oryginalnego PyTara. Trzeba potem sprawdzć i w razie potrzeby przebudować te skrypty. na razie nie sa one krytyczne i służą do wgrywnaia onwych słowników dla pyTara. Poniewaz

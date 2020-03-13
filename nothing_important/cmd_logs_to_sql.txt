@@ -1,0 +1,197 @@
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 4 fields in line 205, saw 7
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: cp==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\og.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 1 fields in line 32848, saw 2
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: og==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\om.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 4 fields in line 60, saw 5
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: om==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pl.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 4 fields in line 524, saw 8
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: pl==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pr.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 1 fields in line 336, saw 3
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: pr==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pr_hr.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 1 fields in line 586, saw 3
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: pr_hr==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\sm.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 4 fields in line 14835, saw 5
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: sm==--
+MSG >>> [09-09-2019 - 11:15:35] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\wm.csv ==--
+MSG >>> [09-09-2019 - 11:15:35] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:15:35] === Error tokenizing data. C error: Expected 2 fields in line 31, saw 3
+
+MSG >>> [09-09-2019 - 11:15:35] === --== Error with exporting: wm==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 4 fields in line 205, saw 7
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: cp==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\og.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 1 fields in line 32848, saw 2
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: og==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\om.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 4 fields in line 60, saw 5
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: om==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pl.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 4 fields in line 524, saw 8
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: pl==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pr.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 1 fields in line 336, saw 3
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: pr==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pr_hr.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 1 fields in line 586, saw 3
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: pr_hr==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\sm.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 4 fields in line 14835, saw 5
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: sm==--
+MSG >>> [09-09-2019 - 11:16:49] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\wm.csv ==--
+MSG >>> [09-09-2019 - 11:16:49] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:16:49] === Error tokenizing data. C error: Expected 2 fields in line 31, saw 3
+
+MSG >>> [09-09-2019 - 11:16:49] === --== Error with exporting: wm==--
+MSG >>> [09-09-2019 - 11:18:18] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:18:18] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:18] === Error tokenizing data. C error: Expected 4 fields in line 205, saw 7
+
+MSG >>> [09-09-2019 - 11:18:18] === --== Error with exporting: cp==--
+MSG >>> [09-09-2019 - 11:18:18] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\og.csv ==--
+MSG >>> [09-09-2019 - 11:18:18] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 1 fields in line 32848, saw 2
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: og==--
+MSG >>> [09-09-2019 - 11:18:19] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\om.csv ==--
+MSG >>> [09-09-2019 - 11:18:19] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 4 fields in line 60, saw 5
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: om==--
+MSG >>> [09-09-2019 - 11:18:19] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pl.csv ==--
+MSG >>> [09-09-2019 - 11:18:19] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 4 fields in line 524, saw 8
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: pl==--
+MSG >>> [09-09-2019 - 11:18:19] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pr.csv ==--
+MSG >>> [09-09-2019 - 11:18:19] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 1 fields in line 336, saw 3
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: pr==--
+MSG >>> [09-09-2019 - 11:18:19] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\pr_hr.csv ==--
+MSG >>> [09-09-2019 - 11:18:19] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 1 fields in line 586, saw 3
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: pr_hr==--
+MSG >>> [09-09-2019 - 11:18:19] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\sm.csv ==--
+MSG >>> [09-09-2019 - 11:18:19] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 4 fields in line 14835, saw 5
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: sm==--
+MSG >>> [09-09-2019 - 11:18:19] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\wm.csv ==--
+MSG >>> [09-09-2019 - 11:18:19] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:18:19] === Error tokenizing data. C error: Expected 2 fields in line 31, saw 3
+
+MSG >>> [09-09-2019 - 11:18:19] === --== Error with exporting: wm==--
+MSG >>> [09-09-2019 - 11:19:32] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:19:32] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:21:46] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:21:46] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:21:46] === 'utf-8' codec can't decode byte 0xa5 in position 58: invalid start byte
+MSG >>> [09-09-2019 - 11:21:46] === --== Error with exporting: cp==--
+MSG >>> [09-09-2019 - 11:22:03] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:22:03] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:22:03] === 'utf-8' codec can't decode byte 0xa5 in position 58: invalid start byte
+MSG >>> [09-09-2019 - 11:22:03] === --== Error with exporting: cp==--
+MSG >>> [09-09-2019 - 11:24:18] === --==File C:\Users\p.kosowski\Documents\Taryfikator\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:24:18] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:24:18] === Error tokenizing data. C error: Expected 4 fields in line 205, saw 7
+
+MSG >>> [09-09-2019 - 11:24:18] === --== Error with exporting: cp==--
+MSG >>> [09-09-2019 - 11:34:22] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:34:22] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:34:22] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:34:25] === --==Export Data to MySQL finnished - table:cp==..
+MSG >>> [09-09-2019 - 11:36:28] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:36:28] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:36:28] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:36:31] === --==Export Data to MySQL finnished - table:cp==..
+MSG >>> [09-09-2019 - 11:36:31] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\og.csv ==--
+MSG >>> [09-09-2019 - 11:36:31] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:36:32] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:36:43] === --==Export Data to MySQL finnished - table:og==..
+MSG >>> [09-09-2019 - 11:36:43] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\om.csv ==--
+MSG >>> [09-09-2019 - 11:36:43] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:36:44] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:36:57] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\cp.csv ==--
+MSG >>> [09-09-2019 - 11:36:57] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:36:57] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:37:00] === --==Export Data to MySQL finnished - table:cp==..
+MSG >>> [09-09-2019 - 11:37:00] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\og.csv ==--
+MSG >>> [09-09-2019 - 11:37:00] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:37:01] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:37:11] === --==Export Data to MySQL finnished - table:og==..
+MSG >>> [09-09-2019 - 11:37:11] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\om.csv ==--
+MSG >>> [09-09-2019 - 11:37:11] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:37:12] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:37:37] === --==Export Data to MySQL finnished - table:om==..
+MSG >>> [09-09-2019 - 11:37:37] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\pl.csv ==--
+MSG >>> [09-09-2019 - 11:37:37] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:37:50] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:41:27] === --==Export Data to MySQL finnished - table:pl==..
+MSG >>> [09-09-2019 - 11:41:27] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\pr.csv ==--
+MSG >>> [09-09-2019 - 11:41:27] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:41:39] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:45:04] === --==Export Data to MySQL finnished - table:pr==..
+MSG >>> [09-09-2019 - 11:45:04] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\pr_hr.csv ==--
+MSG >>> [09-09-2019 - 11:45:04] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:45:12] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:47:10] === --==Export Data to MySQL finnished - table:pr_hr==..
+MSG >>> [09-09-2019 - 11:47:10] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\sm.csv ==--
+MSG >>> [09-09-2019 - 11:47:10] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:47:11] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:47:32] === --==Export Data to MySQL finnished - table:sm==..
+MSG >>> [09-09-2019 - 11:47:32] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\wm.csv ==--
+MSG >>> [09-09-2019 - 11:47:32] === --==Import data to DATAFRAME ==--
+MSG >>> [09-09-2019 - 11:47:49] === --==Exporting data to MySQL DB ==--
+MSG >>> [09-09-2019 - 11:52:49] === --==Export Data to MySQL finnished - table:wm==..
+MSG >>> [10-09-2019 - 07:49:00] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\og.csv ==--
+MSG >>> [10-09-2019 - 07:49:00] === --==Import data to DATAFRAME ==--
+MSG >>> [10-09-2019 - 07:49:01] === --==Exporting data to MySQL DB ==--
+MSG >>> [10-09-2019 - 07:49:11] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\og_wiek.csv ==--
+MSG >>> [10-09-2019 - 07:49:11] === --==Import data to DATAFRAME ==--
+MSG >>> [10-09-2019 - 07:49:11] === --==Exporting data to MySQL DB ==--
+MSG >>> [10-09-2019 - 07:49:21] === --==Export Data to MySQL finnished - table:og==..
+MSG >>> [10-09-2019 - 10:10:57] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\og_wiek.csv ==--
+MSG >>> [10-09-2019 - 10:10:57] === --==Import data to DATAFRAME ==--
+MSG >>> [10-09-2019 - 10:10:58] === --==Exporting data to MySQL DB ==--
+MSG >>> [10-09-2019 - 10:11:28] === --==Export Data to MySQL finnished - table:og==..
+MSG >>> [10-09-2019 - 10:21:30] === --==File T:\organizacyjne_robocze\012_Taryfikator\test\pk\Export_SAS_9_09_2019\og_wiek.csv ==--
+MSG >>> [10-09-2019 - 10:21:30] === --==Import data to DATAFRAME ==--
+MSG >>> [10-09-2019 - 10:21:31] === --==Exporting data to MySQL DB ==--
+MSG >>> [10-09-2019 - 10:21:57] === --==Export Data to MySQL finnished - table:og==..
